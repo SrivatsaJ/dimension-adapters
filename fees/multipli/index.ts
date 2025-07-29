@@ -62,7 +62,7 @@ const adapter: SimpleAdapter = {
       runAtCurrTime: true,
       meta: {
         methodology: {
-          Revenue: "Revenue is the total revenue generated from the protocol's yield-bearing pools. This is calculated by aggregating the daily revenue for each pool, which is derived from its Total Value Locked (TVL) multiplied by its daily equivalent yield rate.",
+          Revenue: "Revenue is the total revenue generated from the protocol's yield-bearing pools, calculated by multiplying the Total Value Locked (TVL) by the daily equivalent yield rate.",
         }
       }
     },
